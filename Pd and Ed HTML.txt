@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form 2</title>
+</head>
+<body bgcolor="D2E0FB">
+    <form action="">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+       
+        
+        <label for="Fname">First Name</label>
+        <input type="text" id="Fname" name="Fname">
+        <br><br>
+
+        <label for="Mname">Middle Name</label>
+        <input type="text" id="Mname" name="Mname">
+        <br><br>
+
+        <label for="Lname">Last Name</label>
+        <input type="text" id="Lname" name="Lname">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+       
+        <label for="dob">DoB</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+       </fieldset>
+
+
+
+       <fieldset>
+
+        <legend>Educational details</legend>
+
+        <label for="sslc">10th</label>
+        <input type="sslc" id="sslc" name="sslc">
+        <br><br>
+
+        <label for="pre">Precentage</label>
+        <input type="pre" id="pre" name="pre">
+        <br><br>
+
+        <label for="pu">12th</label>
+        <input type="pu" id="ug" name="pu">
+        <br><br>
+
+        <label for="pre">Precentage</label>
+        <input type="pre" id="pre" name="pre">
+        <br><br>
+
+        <label for="ug">Under Graducation</label>
+        <input type="ug" id="ug" name="ug">
+        <br><br>
+
+        <label for="pre">Precentage</label>
+        <input type="pre" id="pre" name="pre">
+        <br><br>
+
+        <label for="dept">Departement</label>
+        <br><br>
+
+        <input type="radio" name="dept" id="computer science">
+        <label for="">Computer Science</label>
+
+        <input type="radio" name="dept" id="civil">
+        <label for="">Civil</label>
+
+        <input type="radio" name="dept" id="mechincal">
+        <label for="">Mechincal </label>
+
+        <input type="radio" name="dept" id="electronic communciation">
+        <label for="">Electronic Communciation</label>
+        <br><br>
+
+        <label for="yog">YOP</label>
+        <input list="yog" id="yop" name="yop">
+        
+        <datalist id="yog">
+           
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+
+         </datalist>
+
+            <br><br>
+       
+
+     <label for="skill">Skills</label>
+     <br><br>
+
+     <input type="checkbox" id="html" name="html">
+     <label for="html">HTML</label>
+     <br>
+
+     <input type="checkbox" id="css" name="css">
+     <label for="css">CSS</label>
+     <br>
+
+     <input type="checkbox" id="java" name="java">
+     <label for="java">JAVA</label>
+     <br>
+
+     <input type="checkbox" id="javascript" name="javascript">
+     <label for="javascript">JavaScript</label>
+    <br>
+
+    <input type="checkbox" id="sql" name="sql">
+     <label for="sql">MYSQL</label>
+
+
+
+    </fieldset> 
+    <br>
+<center>
+    <input type="Submit">
+</center>
+
+    </form>
+    
+</body>
+</html>
